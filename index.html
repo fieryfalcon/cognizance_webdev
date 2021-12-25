@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylus.css">
+    <link rel="shortcut icon" href="spacex2.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sudarsan's Portfolio</title>
+
+
+
+  </head>
+  <body>
+    <header>
+
+
+      <div class="main">
+        <div class="logo">
+          <img src="sudarsan.png">
+        </div>
+
+
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html" >About ME</a></li>
+          <li><a href="gallery.html" target="_blank">Gallery</a></li>
+
+          <li><a href="https://cognizance.org.in/" target="_blank">Cognizance</a></li>
+
+        </ul>
+
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+
+
+        <div class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="aboutme.html" >About me</a>
+          <a href="gallery.html" target="_blank">Gallery</a>
+        </div>
+        </div>
+      </div>
+
+
+
+      <div class="the-type">
+        <h1 class="typeing" data-typeingText="Hey guys, I'm sudarsan from first year meta. I had made this website fully responsive(best to view in laptop) ...hope you guys love it....!
+        scroll down to contact me...!"></h1>
+      </div>
+
+      <script>
+      let textType = document.querySelector('.typeing')
+      let textArray = textType.dataset.typeingtext.split("")
+      let typeCount = 0;
+
+      let autoTypeText = () => {
+          if(typeCount < textType.dataset.typeingtext.length){
+              textType.innerHTML += textType.dataset.typeingtext.charAt(typeCount)
+              typeCount++
+              textArray = textType.dataset.typeingtext.split("")
+          }else {
+              textArray.pop()
+              textType.innerHTML = textArray.join("")
+              if(textArray.length == 0){
+                  typeCount = 0
+              }
+          }
+      }
+      setInterval(() => {
+          autoTypeText()
+      },150)
+      </script>
+
+
+
+
+    </header>
+    <hr><hr>
+      <div class="article">
+        <img src="sudarsan.jpeg" height="250px">
+          <div class="articletext">
+            <h4>hover over the image to brighten</h4>
+          </div>
+          <br><br>
+          <div class="articlecontent">
+              <h5>Thanks for visiting my page...!to contact me access the footer...
+                  and to know more about me go to the about me section in the navbar....!!!...Have a great day, GOODBYE...!</5>
+          </div>
+        </div>
+      <footer>
+        <br>
+
+
+<div class="socialmediabuttons">
+<div class="writings">
+  <h2>contact me at:<h2>
+</div>
+<!-- Add font awesome icons -->
+
+
+
+<a href="https://www.instagram.com/sudarsan_369/" target="_blank" class="fa fa-instagram"></a>
+<a href="https://www.facebook.com/profile.php?id=100075039375775" target="_blank" class="fa fa-facebook"></a>
+<a href="https://twitter.com/SudarsanR14" target="_blank" class="fa fa-twitter"></a>
+<a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrgDCNRWSPrPPhFtGZXqVqzjqpFvxNTPbdWVLDDJjLFXlwbMsBFHWWTBcfVzmCQGczvWJq" target="_blank" class="fa fa-google"></a>
+<a href="https://www.linkedin.com/in/sudarsan-r-633588225/" target="_blank" class="fa fa-linkedin"></a>
+</div>
+
+
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,585 @@
+
+@media only screen and (min-width: 701px){
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:garamond ;
+  font-weight: bolder;
+  font-style: normal;
+  font-variant: small-caps;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("leaves.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding-right: 40px;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 25px;
+
+  }
+  ul li {
+    display: inline-block;
+
+
+  }
+  ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 30px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: 0.6s ease;
+    font-size: 1.2em;
+
+}
+
+ul li a:hover{
+  background-color: white;
+  color: black;
+}
+  ul li.active a{
+    background-color: white;
+    color: black;
+
+
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height:auto;
+}
+
+.main{
+  max-width: 1800px;
+  margin:auto;
+
+}
+
+
+
+
+
+
+
+
+
+.the-type{
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  left: 10%;
+  top:40%;
+
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  display: inline;
+
+  background: linear-gradient(
+    45deg,
+    rgb(0, 143, 104),
+    rgb(172, 51, 233),
+    rgb(250, 224, 66)
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  text-transform: capitalize;
+  border-right-style: solid;
+  border-width: 10px;
+  border-image: linear-gradient(
+      45deg,
+      rgb(0, 143, 104),
+      rgb(172, 51, 233),
+      rgb(250, 224, 66)
+    )
+    1;
+}
+.article{
+
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("road.jpg");
+height: 100vh;
+background-size: cover;
+background-position: center;
+padding-right: 40px;
+padding-left: 20px;
+padding-top: 20px;
+
+}
+
+.article img{
+  border: 3px dashed white;
+  border-radius: 5px;
+  padding: 10px;
+  opacity: 0.4;
+  position:relative;
+}
+.article img:hover{
+  opacity: 1;
+  border: 3px dashed yellow;
+
+}
+.articletext h4{
+  color: cyan;
+  width: 100%;
+  position: relative;
+
+}
+.articlecontent h5{
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  position:relative;
+  width: auto;
+  margin-left:auto;
+  margin-right:auto;
+  opacity: 0.2;
+  font-size: 2em;
+  text-align: center;
+
+}
+
+.articlecontent h5:hover{
+  background-color:black;
+  color: cyan;
+  opacity:1;
+
+}
+.container {
+display:none;
+}
+
+.bar1, .bar2, .bar3 {
+display:none;
+
+
+}
+
+.change .bar1 {
+display:none;}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+display:none;
+}
+
+.dropdown {
+display:none;
+}
+
+.dropdown-content {
+  display: none;
+
+}
+
+.dropdown:hover .dropdown-content {
+display: none;
+}
+
+
+
+
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+ .socialmediabuttons{
+
+position: absolute;
+left:34%;
+background-color: black;
+display:flex;
+border: 2px dashed transparent;
+
+}
+
+a{
+  display: inline-block;
+  background-color: black;
+}
+.writings{
+
+    color:white;
+    border:2px solid white;
+    font-weight:bold;
+    text-align:center;
+    padding: 4px 10px;
+
+
+}
+
+
+
+body{
+  background-color: black;
+}
+footer h2{
+  font-size: 0.9em;
+  font-weight: bolder;
+  font-family: "garamond" "helvetica" sans-serif;
+  color: white;
+  font-variant: small-caps;
+  padding-top: 10px;
+  border: 4px solid transparent;
+  margin-bottom: 0px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 699px) {
+  *{
+    margin: 0;
+    padding: 0;
+    font-family:garamond ;
+    font-weight: bolder;
+    font-style: normal;
+    font-variant: small-caps;
+  }
+
+  header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("leaves.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+  }
+
+  ul{
+    display: none;
+
+    }
+    ul li {
+      display: none;
+
+
+    }
+    ul li a{
+      display: none;
+
+
+  }
+
+  ul li a:hover{
+    display: none;
+
+  }
+    ul li.active a{
+    display: none;
+
+  }
+
+  .container {
+  display: inline-block;
+  cursor: pointer;
+  background-color:black;
+
+
+
+
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color:white;
+  margin: 6px 0;
+  transition: 0.4s;
+
+
+
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  color: white;
+  padding: 40px;
+  margin: 3px;
+  z-index: 1;
+  border: 1px solid yellow;
+  color: cyan;text-decoration-style: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+  padding: 20px;
+  font-size: 2em;
+  color: cyan;text-decoration-style: none;
+
+}
+
+  .logo img{
+    float: left;
+    width: 150px;
+    height:auto;
+  }
+
+  .main{
+    max-width: 1200px;
+    margin:auto;
+
+  }
+
+
+    .the-type{
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+
+  }
+
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: inline;
+
+    background: linear-gradient(
+      45deg,
+      rgb(0, 143, 104),
+      rgb(172, 51, 233),
+      rgb(250, 224, 66)
+    );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    text-transform: capitalize;
+    border-right-style: solid;
+    border-width: 10px;
+    border-image: linear-gradient(
+        45deg,
+        rgb(0, 143, 104),
+        rgb(172, 51, 233),
+        rgb(250, 224, 66)
+      )
+      1;
+  }
+  .article{
+
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("road.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding-right: 40px;
+  padding-left: 20px;
+  padding-top: 20px;
+
+  }
+
+  .article img{
+    border: 3px dashed white;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+    opacity: 1;
+    position: relative;
+    width:100%;
+    height:auto;
+    margin-top: 20px;
+
+  }
+
+  .articletext h4{
+  display: none;
+  }
+
+
+  .articlecontent h5{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    width: auto;
+    margin-top: 20px;
+
+  }
+
+  .articlecontent h5:hover{
+  display: none;
+
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+ .socialmediabuttons{
+
+
+background-color: black;
+display: flex;
+border: 2px dashed transparent;
+width:100%;
+margin-left: 0px;
+left: 0px;
+
+
+}
+
+a{
+  display: inline-block;
+  background-color: black;
+  width:100%;
+}
+.writings{
+
+  display: none;
+
+
+}
+
+
+
+
+
+
+
+footer{
+  background-color: black;
+  margin-bottom: 0;
+
+}
+body{
+  background-color:black;
+}
+h2{
+display: none;
+}
+}
